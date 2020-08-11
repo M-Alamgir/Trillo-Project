@@ -1,0 +1,29 @@
+.container{
+    background-color: var(--color-Grey-light-1);
+    margin: 8rem auto;
+    box-shadow: 0 2rem 6rem rgba(0,0,0, .4);
+
+    max-width: 120rem;
+    min-height: 50rem;
+
+}
+
+.header {
+    height: 8rem;
+    background-color: var(--color-Grey-light-2);
+    border-bottom: var(--color-Grey-light-1);
+
+}
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    background-color: var(--color-Grey-dark-1);
+    flex: 0 0 18%;
+}
+
+.main-area {
+    flex: 1;
+}
