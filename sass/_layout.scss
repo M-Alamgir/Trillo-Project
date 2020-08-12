@@ -10,9 +10,12 @@
 
 .header {
     height: 8rem;
-    background-color: var(--color-Grey-light-2);
-    border-bottom: var(--color-Grey-light-1);
-
+    background-color: var(--color-Grey-light-1);
+    border-bottom: var(--color-Grey-light-2);
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .content {
