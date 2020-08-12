@@ -9,7 +9,7 @@ Google fonts<br />
 icomoon.io(svg icons)<br />
 
 #### Student
-Alamgir
+:bust_in_silhouette: Alamgir
 
 #### Author
-Jonas Schmedtman
+:bust_in_silhouette: Jonas Schemdtman
