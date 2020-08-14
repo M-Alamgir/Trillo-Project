@@ -120,7 +120,7 @@
 }
 
 //////////////////////////////
-////// SIEBAR
+////// SIDEBAR
 
 .side-nav {
     list-style: none;
@@ -183,9 +183,24 @@
     }
 }
 
+//////////////////////////////
+////// Legal
+
 .legal {
     font-size: 1.2rem;
     color: var(--color-Grey-light-4);
     text-align: center;
     padding: 2rem 2rem;
+}
+
+//////////////////////////////
+////// IMAGES
+
+.gallery {
+    display: flex;
+}
+
+.gallery__image {
+    width: 100%;
+    display: block;
 }

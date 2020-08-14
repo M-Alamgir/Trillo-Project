@@ -62,7 +62,6 @@ body {
 
 .main-area {
   flex: 1;
-  background-color: orangered;
   height: 80rem; }
 
 .logo {
@@ -182,3 +181,10 @@ body {
   color: var(--color-Grey-light-4);
   text-align: center;
   padding: 2rem 2rem; }
+
+.gallery {
+  display: flex; }
+
+.gallery__image {
+  width: 100%;
+  display: block; }
