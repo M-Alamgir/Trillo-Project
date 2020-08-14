@@ -6,13 +6,13 @@ This Project is mainly focused on CSS3 Flex-box.
 Live Demo here: https://ourandco.github.io/Trillo-Project/
 
 ### Languages
-** HTML5
-** CSS3
+- HTML5
+- CSS3
 
 ### Resources
-Google fonts<br />
-icomoon.io(svg icons)<br />
-cubic-bezier.com<br />
+- Google fonts<br />
+- icomoon.io(svg icons)<br />
+- cubic-bezier.com<br />
 
 ##### Sass, NPM, BEM METHADOLOGY, Live-Sever
 
