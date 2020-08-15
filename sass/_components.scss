@@ -240,24 +240,7 @@
         fill: var(--color-Primary);
     }
 
-    .btn-inline {
-        border: none;
-        color: var(--color-Primary);
-        border-bottom: 1px solid currentColor;
-        cursor: pointer;
-        margin: 0 .7rem;
-        background-color: transparent;
 
-        &:hover {
-            color: var(--color-Grey-dark-1);
-        }
-        
-        &:focus {
-            outline: none;
-            animation: Pulsater 1s infinite;
-            background-color: transparent;
-        }
-    }
 
     &__rating {
         display: flex;
@@ -281,6 +264,35 @@
     &__count {
         font-size: 1.2rem;
         color: var(--color-Grey-light-1);
+    }
+}
+
+.btn-inline {
+    border: none;
+    color: var(--color-Primary);
+    border-bottom: 1px solid currentColor;
+    cursor: pointer;
+    margin: 0 .7rem;
+    background-color: transparent;
+
+
+    &:hover {
+        color: var(--color-Grey-dark-1);
+
+        span {
+            margin-left: 8px;
+            transition: margin-left .2s;
+        }
+    }
+
+    span {
+        margin-left: 3px;
+    }
+    
+    &:focus {
+        outline: none;
+        animation: Pulsater 1s infinite;
+        background-color: transparent;
     }
 }
 

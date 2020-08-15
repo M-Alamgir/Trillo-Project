@@ -81,7 +81,10 @@ body {
   border-radius: 3px; }
 
 .user-review {
-  flex: 1; }
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .logo {
   height: 3.25rem;
@@ -228,19 +231,6 @@ body {
     height: 1.75rem;
     width: 1.75rem;
     fill: var(--color-Primary); }
-  .overview .btn-inline {
-    border: none;
-    color: var(--color-Primary);
-    border-bottom: 1px solid currentColor;
-    cursor: pointer;
-    margin: 0 .7rem;
-    background-color: transparent; }
-    .overview .btn-inline:hover {
-      color: var(--color-Grey-dark-1); }
-    .overview .btn-inline:focus {
-      outline: none;
-      animation: Pulsater 1s infinite;
-      background-color: transparent; }
   .overview__rating {
     display: flex;
     flex-direction: column;
@@ -257,6 +247,25 @@ body {
   .overview__count {
     font-size: 1.2rem;
     color: var(--color-Grey-light-1); }
+
+.btn-inline {
+  border: none;
+  color: var(--color-Primary);
+  border-bottom: 1px solid currentColor;
+  cursor: pointer;
+  margin: 0 .7rem;
+  background-color: transparent; }
+  .btn-inline:hover {
+    color: var(--color-Grey-dark-1); }
+    .btn-inline:hover span {
+      margin-left: 8px;
+      transition: margin-left .2s; }
+  .btn-inline span {
+    margin-left: 3px; }
+  .btn-inline:focus {
+    outline: none;
+    animation: Pulsater 1s infinite;
+    background-color: transparent; }
 
 @keyframes Pulsater {
   0% {
