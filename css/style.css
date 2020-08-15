@@ -61,8 +61,21 @@ body {
   justify-content: space-between; }
 
 .main-area {
+  flex: 1; }
+
+.details {
+  display: flex;
+  padding: 4.5rem;
+  border-bottom: 1px solid var(--color-Grey-light-2); }
+
+.description {
+  flex: 0 0 60%;
+  background-color: #fff;
+  margin-right: 4.5rem; }
+
+.user-review {
   flex: 1;
-  height: 80rem; }
+  background-color: yellowgreen; }
 
 .logo {
   height: 3.25rem;
@@ -249,3 +262,17 @@ body {
   100% {
     transform: scale(1);
     box-shadow: none; } }
+
+.details {
+  display: flex;
+  padding: 4.5rem;
+  border-bottom: 1px solid var(--color-Grey-light-2); }
+
+.description {
+  flex: 0 0 60%;
+  background-color: #fff;
+  margin-right: 4.5rem; }
+
+.user-review {
+  flex: 1;
+  background-color: yellowgreen; }
