@@ -42,13 +42,13 @@
     display: flex;
     padding: 4.5rem;
     border-bottom: 1px solid var(--color-Grey-light-2);
+    font-size: 1.4rem;
 }
 
 .description {
     flex: 0 0 60%;
     background-color:#fff;
     margin-right: 4.5rem;
-    font-size: 1.4rem;
     padding: 2rem 2rem;
     box-shadow: var(--shadow-light);
     border-radius: 3px;
@@ -56,5 +56,4 @@
 
 .user-review {
     flex: 1;
-    background-color: yellowgreen;
 }
