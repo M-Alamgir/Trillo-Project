@@ -18,6 +18,12 @@
     --line: 1px solid var(--color-Grey-light-2)
 }
 
+$screen-largest: 75em; //1200px
+$screen-large: 62.5em; // 1000px
+$screen-medium: 50em; // 800px
+$screen-small: 37.5em; // 600px
+$screen-smallest: 31.25em; // 600px
+
 * {
     margin: 0;
     padding: 0;
@@ -32,6 +38,10 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%; // 1rem = 10px. 10/16 = 62.5%
+
+    @media only screen and (max-width: $screen-large){
+        font-size: 50%; // 1rem = 8px
+    }
 }
 
 body {
