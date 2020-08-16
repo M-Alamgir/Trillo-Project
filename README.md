@@ -1,6 +1,6 @@
 # Trillo-Project
-Trillo project is a part of Jonas schemdtman Advanced CSS course
-This Project is mainly focused on CSS3 Flex-box.
+Trillo project is a part of Jonas schemdtman Advanced CSS course.<br />
+This Project is mainly focused on CSS3 Flex-box and Responsive design.
 
 ## live Demo
 Live Demo here: https://ourandco.github.io/Trillo-Project/
