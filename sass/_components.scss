@@ -276,6 +276,11 @@
             padding: 1.25rem 2rem;
         }
 
+        @media only screen and (max-width: $screen-smallest){
+            font-size: 1.5rem;
+            padding: .8rem 1rem;
+        }
+
     }
 
     &__star {
@@ -306,6 +311,11 @@
         padding: 1rem 2rem;
         line-height: 1.2;
 
+        @media only screen and (max-width: $screen-smallest){
+            padding: .7rem 1rem;
+        }
+
+
     }
 
     &__average {
@@ -334,6 +344,11 @@
     cursor: pointer;
     margin: 0 .7rem;
     background-color: transparent;
+
+    @media only screen and (max-width: $screen-smallest){
+        font-size: 1.5rem;
+    }
+
 
 
     &:hover {
@@ -379,6 +394,10 @@
 .paragraph {
     &:not(:last-of-type){
         margin-bottom: 2rem;
+        @media only screen and (max-width: $screen-smallest){
+            margin-bottom: 1.2rem;
+        }
+        
     }
 }
 
@@ -393,10 +412,20 @@
     display: flex;
     flex-wrap: wrap;
 
+    @media only screen and (max-width: $screen-smallest){
+        padding: 1.2rem 0;
+        margin: 1.2rem 0;
+    }
+
     &__item {
         list-style: none;
         flex: 0 0 50%;
         padding: .5rem 0;
+
+        @media only screen and (max-width: $screen-smallest){
+            flex-basis: 100%;
+        }
+
     }
 
     &__item::before {
@@ -526,6 +555,10 @@
         font-size: 2rem;
         font-weight: 300;
         padding: 2.5rem 0;
+
+        @media only screen and (max-width: $screen-smallest){
+            padding: 1.8rem 0;
+        }
     }
 }
 
