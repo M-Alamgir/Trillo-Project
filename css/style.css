@@ -294,7 +294,7 @@ body {
         padding: 1.25rem 2rem; } }
     @media only screen and (max-width: 31.25em) {
       .overview__heading {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         padding: .8rem 1rem; } }
   .overview__star {
     margin-right: auto;
@@ -305,6 +305,9 @@ body {
     height: 1.75rem;
     width: 1.75rem;
     fill: var(--color-Primary); }
+    @media only screen and (max-width: 31.25em) {
+      .overview__icon-star:last-of-type {
+        display: none; } }
   .overview__rating {
     display: flex;
     flex-direction: column;
@@ -316,7 +319,7 @@ body {
     line-height: 1.2; }
     @media only screen and (max-width: 31.25em) {
       .overview__rating {
-        padding: .7rem 1rem; } }
+        padding: .5rem .7rem; } }
   .overview__average {
     font-size: 2.2rem;
     color: var(--color-Grey-light-1);
@@ -340,7 +343,7 @@ body {
   background-color: transparent; }
   @media only screen and (max-width: 31.25em) {
     .btn-inline {
-      font-size: 1.5rem; } }
+      font-size: 1.4rem; } }
   .btn-inline:hover {
     color: var(--color-Grey-dark-1); }
     .btn-inline:hover span {

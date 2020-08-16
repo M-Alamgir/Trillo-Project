@@ -277,7 +277,7 @@
         }
 
         @media only screen and (max-width: $screen-smallest){
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             padding: .8rem 1rem;
         }
 
@@ -287,6 +287,7 @@
         margin-right: auto;
         display: flex;
 
+        
     }
 
     &__location {
@@ -297,6 +298,12 @@
         height: 1.75rem;
         width: 1.75rem;
         fill: var(--color-Primary);
+        &:last-of-type {
+            
+            @media only screen and (max-width: $screen-smallest){
+                display: none;
+            }
+        }
     }
 
 
@@ -312,7 +319,7 @@
         line-height: 1.2;
 
         @media only screen and (max-width: $screen-smallest){
-            padding: .7rem 1rem;
+            padding: .5rem .7rem;
         }
 
 
@@ -346,7 +353,7 @@
     background-color: transparent;
 
     @media only screen and (max-width: $screen-smallest){
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
 
