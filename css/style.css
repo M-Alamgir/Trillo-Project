@@ -396,12 +396,14 @@ body {
     display: inline-block;
     height: 1rem;
     width: 1rem;
-    margin-right: .7rem;
-    background-color: var(--color-Primary);
-    -webkit-mask-image: url(../img/chevron-thin-right.svg);
-    -webkit-mask-size: cover;
-    mask-image: url(../img/sprite.svg#icon-chevron-right);
-    mask-size: cover; }
+    margin-right: .7rem; }
+    @supports (-webkit-mask-image: url()) or (mask-image: url()) {
+      .list__item::before {
+        background-color: var(--color-Primary);
+        -webkit-mask-image: url(../img/chevron-thin-right.svg);
+        -webkit-mask-size: cover;
+        mask-image: url(../img/sprite.svg#icon-chevron-right);
+        mask-size: cover; } }
 
 .recommend {
   display: flex;

@@ -13,6 +13,7 @@ Live Demo here: https://ourandco.github.io/Trillo-Project/
 - Google fonts<br />
 - icomoon.io(svg icons)<br />
 - cubic-bezier.com<br />
+- caniuse.com <br />
 
 ##### Sass, NPM, BEM METHADOLOGY, Live-Sever
 
