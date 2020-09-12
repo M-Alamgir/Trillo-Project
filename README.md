@@ -5,7 +5,7 @@ This Project is mainly focused on CSS3 Flex-box and Responsive design.
 ## live Demo
 Live Demo here: https://ourandco.github.io/Trillo-Project/
 
-![](img/shot.png)
+![](img/shot.PNG)
 
 ### Languages
 - HTML5
