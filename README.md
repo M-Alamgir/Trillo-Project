@@ -17,6 +17,10 @@ Live Demo here: https://ourandco.github.io/Trillo-Project/
 - cubic-bezier.com<br />
 - caniuse.com <br />
 
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
 ### Setup
 
 1. Clone this repo to your computer using `git clone`
